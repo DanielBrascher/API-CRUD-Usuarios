@@ -71,8 +71,7 @@ Exemplos no Postman
   "uf": "SP"
   }
    ```
-  
-  ======================================
+
   Buscar usuário por ID (GET /users/id)
   URL 
   http://localhost/apicrud/public/users/2
@@ -91,7 +90,6 @@ Exemplos no Postman
   }
    ```
 
-  ======================================
   Listar usuários (GET /users)
   URL
   http://localhost/apicrud/public/users
@@ -121,7 +119,7 @@ Exemplos no Postman
     }
   ]
   ```
-  ======================================
+
   Atualizar usuário (PUT /users/id)
   URL
   http://localhost/apicrud/public/users/2
@@ -148,7 +146,7 @@ Exemplos no Postman
     "uf": "SP"
   }
    ```
-  ======================================
+
   Deletar usuário (DELETE /users/id)
   URL
   http://localhost/apicrud/public/users/2
