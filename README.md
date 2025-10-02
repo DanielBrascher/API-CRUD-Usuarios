@@ -17,7 +17,7 @@ Como rodar o projeto
    
 2. Coloque a pasta dentro do htdocs do XAMPP
 3. Crie o banco de dados no MySQL
-   
+```   
   CREATE DATABASE apicrud;
   USE apicrud;
 
@@ -31,7 +31,7 @@ Como rodar o projeto
       localidade VARCHAR(100),
       uf VARCHAR(2)
   );
-
+```
 4. Inicie o Apache e o MySQL no XAMPP.
 5. Acesse a API no navegador ou Postman
    http://localhost/apicrud/public
@@ -50,13 +50,16 @@ Exemplos no Postman
   http://localhost/apicrud/public/users
 
   Body 
+  ```
   {
   "name": "João Silva",
   "email": "joao@email.com",
   "cep": "01001000"
   }
+   ```
 
   Resposta
+  ```
   {
   "id": 1,
   "name": "João Silva",
@@ -67,6 +70,7 @@ Exemplos no Postman
   "localidade": "São Paulo",
   "uf": "SP"
   }
+   ```
   
   ======================================
   Buscar usuário por ID (GET /users/id)
@@ -74,6 +78,7 @@ Exemplos no Postman
   http://localhost/apicrud/public/users/2
 
   Resposta
+  ```
   {
   "id": 2,
   "name": "Daniel Brascher",
@@ -84,6 +89,7 @@ Exemplos no Postman
   "localidade": "Nilópolis",
   "uf": "RJ"
   }
+   ```
 
   ======================================
   Listar usuários (GET /users)
@@ -121,14 +127,16 @@ Exemplos no Postman
   http://localhost/apicrud/public/users/2
 
   Body
+  ```
   {
     "name": "Daniel do Amaral",
     "email": "amaral@gmail.com",
     "cep": "01001000"
   }
+   ```
 
   Resposta
-
+   ```
   {
     "id": 2,
     "name": "Daniel do Amaral",
@@ -139,15 +147,18 @@ Exemplos no Postman
     "localidade": "São Paulo",
     "uf": "SP"
   }
+   ```
   ======================================
   Deletar usuário (DELETE /users/id)
   URL
   http://localhost/apicrud/public/users/2
 
   Resposta
+  ```
   {
     "message": "Usuario removido"
   }
+   ```
 
 
 
