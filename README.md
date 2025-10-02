@@ -3,7 +3,6 @@
 Este projeto é do Desafio ForgeChat - Backend
 Com o objetivo de desenvolver uma API de cadastro simples e integrar com uma API externa de CEP
 
------------------------------------------------------------------------------------------------
 
 Para desenvolver a aplicação utilizei:
 - PHP
