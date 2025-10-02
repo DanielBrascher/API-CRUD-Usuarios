@@ -15,7 +15,7 @@ Como rodar o projeto
 1. Clone o repositório
    git clone https://github.com/DanielBrascher/API-CRUD-Usuarios.git
    
-2. Coloque a pasta dentro do htdocs do XAMPP
+2. Coloque a pasta "apicrud" dentro do htdocs do XAMPP
 3. Crie o banco de dados no MySQL
 ```   
   CREATE DATABASE apicrud;
