@@ -4,7 +4,7 @@ Este projeto é do Desafio ForgeChat - Backend
 Com o objetivo de desenvolver uma API de cadastro simples e integrar com uma API externa de CEP
 
 
-Para desenvolver a aplicação utilizei:
+Para o desenvolvimento da aplicação, utilizei:
 - PHP
 - MySQL
 - XAMPP (Para rodar o servidor do php e MySQL)
@@ -16,7 +16,7 @@ Como rodar o projeto
    git clone https://github.com/DanielBrascher/API-CRUD-Usuarios.git
    ```
    
-2. Coloque a pasta "apicrud" dentro do htdocs do XAMPP
+2. Coloque a pasta "apicrud" dentro do "htdocs" do XAMPP
 3. Crie o banco de dados no MySQL
 ```   
   CREATE DATABASE apicrud;
